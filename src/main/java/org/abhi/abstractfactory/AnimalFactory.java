@@ -8,9 +8,9 @@ public class AnimalFactory implements AbstractFactory<Animal>{
     @Override
     public Animal create(String animalType) {
         if ("Duck".equalsIgnoreCase(animalType)) {
-            return new Dog();
-        } else if ("Dog".equalsIgnoreCase(animalType)) {
             return new Duck();
+        } else if ("Dog".equalsIgnoreCase(animalType)) {
+            return new Dog();
         }
         return null;
     }

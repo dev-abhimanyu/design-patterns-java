@@ -9,7 +9,6 @@ public class Dog implements Animal{
     public String getAnimal() {
         return "Dog";
     }
-
     @Override
     public String makeSound() {
         return "Bark";
