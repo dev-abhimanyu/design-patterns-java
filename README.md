@@ -5,6 +5,7 @@ Design patterns are solutions to general problems that software developers faced
 
 1. Singleton 
 2. Abstract Factory 
+3. MVC
 
 ### Singleton 
 
@@ -18,3 +19,10 @@ Singleton design pattern includes:
 Abstract Factory is a creational design pattern that lets us produce families of related objects without specifying their concrete classes. This is achieved through:
 * Interfaces
 * An abstract class or an interface called "Abstract Factory" which is responsible for generating factories of different classes. These classes are then used to create instances.
+
+### MVC
+
+Model-View-Controller pattern is based on separation of concerns concept.
+* Model - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.
+* View - View represents the visualization of the data that model contains.
+* Controller - Controller controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
