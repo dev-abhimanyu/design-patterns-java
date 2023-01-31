@@ -1,5 +1,5 @@
 # design-patterns-java
-## Implementation of some important Design Patterns in Java
+## Implementation of some commonly used Design Patterns in Java
 
 Design patterns are solutions to general problems that software developers faced during software development. This repository contains some of the most commonly used Desgin Patterens implementation in Java including:
 
